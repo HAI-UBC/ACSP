@@ -47,19 +47,32 @@ This method will still work (in case required). Sometimes if the "cvs" command d
 For each version, following is how the codebase looks like: 
 
 
-1. Constraint 
+1. Constraint
+
     a. AIspace
+
         i. Adaptation 
+
             - (v1 updates were added here)
+
             - (v3,v4,v5 updates were added here)
+
                 1. explanation 
+
                     - (v2 updates were added here)
+
                     - (v6 updates were added here)
+
         ii. Constraint 
+
             - (v0 was added here)
+
         iii. cspTools 
+        
         iv. graphToolKit 
+
         v. XMLReader 
+        
     b. lib
 
 
