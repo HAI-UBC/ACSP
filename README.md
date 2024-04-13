@@ -2,7 +2,9 @@
 
 ## Meta 
 Document Version: 0.1
+
 Last updated: Spring 2024 by Vedant Bahel 
+
 
 Objective: This document presents:
 1. List of different versions of the ACSP applets (located in this repository)
@@ -13,19 +15,19 @@ Objective: This document presents:
 
 ## Different versions of the ACSP applet:
 
-
 | Version | Name              | Features                          | Developer          | Year | Location | Materials|
-| --------| ------            | ---------------                   |-----------         |----  | | |
-| v0      | CSP               | Non-adaptive base CSP applet      | Team CISpace       |    | | |
-| v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           |    | | |
-| v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 | | |
-| v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 | | |
-| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | | |
-| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | | |
-| v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 | | |
+| ------- | ----------------- | --------------------------------- | ------------------ | ---- | -------- | -------- |
+| v0      | CSP               | Non-adaptive base CSP applet      | Team CISpace       |      |          |          |
+| v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           |      |          |          |
+| v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 |          |          |
+| v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 |          |          |
+| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 |          |          |
+| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 |          |          |
+| v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 |          |          |
 
 
-——————————————
+
+
 
 ## Code retrieval story 
 When I (Vedant B) started working on the project, it was difficult to retrive the code (as this GitHub repo did not exist). How did I get the code for v2 (a version prior to mine)? 
@@ -38,40 +40,47 @@ cvs -d /ubc/cs/research/conati/CIspaceCSP/CVS checkout Constraint
 
 This method will still work (in case required). Sometimes if the "cvs" command doesn't work, try contacting help@cs. They will install the command for you to use it. 
 
- ——————————————
+
 
 ## Project folder structure:
 
 For each version, following is how the codebase looks like: 
 
-Constraint 
-	- AIspace
-		- Adaptation (v1 updates was added here) (v3,v4,v5 upadtes were added here)
-			- explanation  (v2 updates were added here) (v6 updates were added here)
-		- Constraint  (v0 was added here)
-		- cspTools 
-		- graphToolKit 
-		- XMLReader 
-	- lib
 
-——————————————
+1. Constraint 
+    a. AIspace
+        i. Adaptation 
+            - (v1 updates were added here)
+            - (v3,v4,v5 updates were added here)
+                1. explanation 
+                    - (v2 updates were added here)
+                    - (v6 updates were added here)
+        ii. Constraint 
+            - (v0 was added here)
+        iii. cspTools 
+        iv. graphToolKit 
+        v. XMLReader 
+    b. lib
+
+
 
 ## Editing the code:
 
 Following the above described folder structure, based your goal, you can make changes to relevant files:
 1. Changes to hint box/explanation delivery method are done in files in the Adaptation folder. (e.g. v1,v3,v4,v5)
 2. Changes to explanations are done in the explanation sub-folder in the Adaptation folder. (e.g. v6)
-——————————————
+
 
 ## How to compile the code:
 Set Constraint main folder as CWD and run: 
 javac -classpath ":./lib/batik/lib/*" AIspace/<Subfolder_name_goes_here>/*.java
+
 Where subfolder name will be all sub-folders containing java files. You have to run it one by one for all folders. In some cases, there are sub-sub folders. Make sure you include that path. Example: AIspace/Adaptation/explanation/*.java
-——————————————
+
 
 ## How to run the code: 
 java -classpath ":./lib/batik/lib/*" AIspace/Adaptation AdaptiveCSP_main_LocationBasedHide_M2_NoOLM_Explain2 
-——————————————
+
  
 ## Version decription 
 
