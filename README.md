@@ -11,22 +11,17 @@ Objective: This document presents:
 2. How to edit the code this applet and compile it?
 3. How to run the applet?
 
-——————————————
-
 ## Different versions of the ACSP applet:
 
-| Version | Name              | Features                          | Developer          | Year | Materials|
+| Version | Name              | Features                          | Developer          | Year | Codebase | Materials|
 | ------- | ----------------- | --------------------------------- | ------------------ | ---- | -------- |
-| v0      | CSP               | Non-adaptive base CSP applet      | Team CISpace       | 1999-2010   | [AISpace Website](http://www.aispace.org/index.shtml)     |
-| v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           | 2016-17     | [Thesis](v1_ACSP/materials/ubc_2017_september_kardan_samad.pdf)         |
-| v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 |          |
-| v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 |          |
-| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 |          |
-| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 |          |
-| v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 |          |
-
-
-
+| v0      | CSP               | Non-adaptive base CSP applet      | Team CISpace       | 1999-2010   | NA | [AISpace Website](http://www.aispace.org/index.shtml)     |
+| v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           | 2016-17     | CIspcaeCSP/XAI(Lea&Vanessa)/StudySoftware acsp-control.jar | [Thesis](v1_ACSP/materials/ubc_2017_september_kardan_samad.pdf)         |
+| v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 | CIspcaeCSP/XAI(Lea&Vanessa)/StudySoftware acsp-expl.jar |          |
+| v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 | CIspaceCSP/Vedant_ConfusionStudy |          |
+| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | Codebase |          |
+| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | Codebase |          |
+| v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 | CIspaceCSP/Max_RP |          |
 
 
 ## Code retrieval story 
@@ -40,6 +35,10 @@ cvs -d /ubc/cs/research/conati/CIspaceCSP/CVS checkout Constraint
 
 This method will still work (in case required). Sometimes if the "cvs" command doesn't work, try contacting help@cs. They will install the command for you to use it. 
 
+
+## Current code retrieval protocols 
+
+We do not use CVS anymore. For accessing codebase of the above listed version, follow their location in the CS server. Find the appropriate folder and edit/run the code as per directions in the following sections. 
 
 
 ## Project folder structure:
