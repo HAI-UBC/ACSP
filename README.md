@@ -18,7 +18,7 @@ Objective: This document presents:
 | Version | Name              | Features                          | Developer          | Year | Materials|
 | ------- | ----------------- | --------------------------------- | ------------------ | ---- | -------- |
 | v0      | CSP               | Non-adaptive base CSP applet      | Team CISpace       | 1999-2010   | [AISpace Website](http://www.aispace.org/index.shtml)     |
-| v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           | 2016-17     | [Materials](v1_ACSP/materials)         |
+| v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           | 2016-17     | [Thesis](v1_ACSP/materials/ubc_2017_september_kardan_samad.pdf)         |
 | v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 |          |
 | v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 |          |
 | v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 |          |
