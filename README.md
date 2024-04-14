@@ -14,14 +14,14 @@ Objective: This document presents:
 ## Different versions of the ACSP applet:
 
 | Version | Name              | Features                          | Developer          | Year | Codebase | Materials|
-| ------- | ----------------- | --------------------------------- | ------------------ | ---- | -------- |
+| ------- | ----------------- | --------------------------------- | ------------------ | ---- | -------- | -------- |
 | v0      | CSP               | Non-adaptive base CSP applet      | Team CISpace       | 1999-2010   | NA | [AISpace Website](http://www.aispace.org/index.shtml)     |
-| v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           | 2016-17     | CIspcaeCSP/XAI(Lea&Vanessa)/StudySoftware acsp-control.jar | [Thesis](v1_ACSP/materials/ubc_2017_september_kardan_samad.pdf)         |
-| v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 | CIspcaeCSP/XAI(Lea&Vanessa)/StudySoftware acsp-expl.jar |          |
-| v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 | CIspaceCSP/Vedant_ConfusionStudy |          |
-| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | Codebase |          |
-| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | Codebase |          |
-| v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 | CIspaceCSP/Max_RP |          |
+| v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           | 2016-17     | CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware acsp-control.jar | [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0348694)         |
+| v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 | CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware acsp-expl.jar | [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0389817?o=0)|
+| v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 | CIspaceCSP/Vedant_ConfusionStudy |  [Thesis]()       |
+| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | Codebase |  [Thesis]()        |
+| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | Codebase |    [Thesis]()      |
+| v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 | CIspaceCSP/Max_RP |   [Report]() |
 
 
 ## Code retrieval story 
@@ -40,12 +40,13 @@ This method will still work (in case required). Sometimes if the "cvs" command d
 
 We do not use CVS anymore. For accessing codebase of the above listed version, follow their location in the CS server. Find the appropriate folder and edit/run the code as per directions in the following sections. 
 
+The code cannot be uploaded to GitHub because they are too large files to be pushed to GitHub. That is why they are stored in the CS server. 
 
 ## Project folder structure:
 
 For each version, following is how the codebase looks like: 
 
-
+'''
 1. Constraint
 
     a. AIspace
@@ -73,7 +74,7 @@ For each version, following is how the codebase looks like:
         v. XMLReader 
 
     b. lib
-
+'''
 
 
 ## Editing the code:
@@ -92,11 +93,14 @@ Where subfolder name will be all sub-folders containing java files. You have to 
 
 ## How to run the code: 
 java -classpath ":./lib/batik/lib/*" AIspace/Adaptation AdaptiveCSP_main_LocationBasedHide_M2_NoOLM_Explain2 
-
  
 ## Version decription 
 
 1. V3: Changes made to the code to include confusion button: Code to add confusion button is added in ConstraintWindow.java located in AISpace/Constraint sub-folder. (Line 78, 116, 255, 272, 282, 283, 284)
 
 2. V6: 
+
+
+## Which CSP problem did Samad, LV and Vedant used for their user study?
+All of them used a set of 3 CSP problems: Sample 1, Sample 2 and Sample 3. These CSP problems are not built-in in the ACSP menu, they need to be opened from File>Open with. The problems file are located in the server at CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware/Applet Problems.
 
