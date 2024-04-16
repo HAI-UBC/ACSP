@@ -7,20 +7,20 @@ Last updated: Spring 2024 by Vedant Bahel
 
 
 Objective: This document presents:
-1. List of different versions of the ACSP applets (located in this repository)
+1. List of different versions of the ACSP applets (located in the CS server)
 2. How to edit the code this applet and compile it?
 3. How to run the applet?
 
 ## Different versions of the ACSP applet:
 
-| Version | Name              | Features                          | Developer          | Year | Codebase | Materials|
+| Version | Name              | Features                          | Developer          | Year | Codebase (In CS server /ubc/cs/research/conati/) | Materials|
 | ------- | ----------------- | --------------------------------- | ------------------ | ---- | -------- | -------- |
 | v0      | CSP               | Non-adaptive base CSP applet      | Team CISpace       | 1999-2010   | NA | [AISpace Website](http://www.aispace.org/index.shtml)     |
 | v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           | 2016-17     | CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware acsp-control.jar | [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0348694)         |
 | v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 | CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware acsp-expl.jar | [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0389817?o=0)|
 | v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 | CIspaceCSP/Vedant_ConfusionStudy |  [Thesis]()       |
-| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | Codebase |  [Thesis]()        |
-| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | Codebase |    [Thesis]()      |
+| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | CIspaceCSP/ACSP_Interface_Vedant_Harshinee/Software |  [Thesis]()        |
+| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | CIspaceCSP/ACSP_Interface_Vedant_Harshinee/Software |    [Thesis]()      |
 | v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 | CIspaceCSP/Max_RP |   [Report]() |
 
 
@@ -46,7 +46,7 @@ The code cannot be uploaded to GitHub because they are too large files to be pus
 
 For each version, following is how the codebase looks like: 
 
-'''
+
 1. Constraint
 
     a. AIspace
@@ -74,7 +74,7 @@ For each version, following is how the codebase looks like:
         v. XMLReader 
 
     b. lib
-'''
+
 
 
 ## Editing the code:
