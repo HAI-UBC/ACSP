@@ -79,20 +79,20 @@ For each version, following is how the codebase looks like:
 
 ## Editing the code:
 
-Following the above described folder structure, based your goal, you can make changes to relevant files:
+Following the above described folder structure, based on your goal, you can make changes to relevant files:
 1. Changes to hint box/explanation delivery method are done in files in the Adaptation folder. (e.g. v1,v3,v4,v5)
 2. Changes to explanations are done in the explanation sub-folder in the Adaptation folder. (e.g. v6)
 
 
 ## How to compile the code:
 Set Constraint main folder as CWD and run: 
-javac -classpath ":./lib/batik/lib/*" AIspace/<Subfolder_name_goes_here>/*.java
+javac -classpath ";./lib/batik/lib/*" AIspace/<Subfolder_name_goes_here>/*.java
 
 Where subfolder name will be all sub-folders containing java files. You have to run it one by one for all folders. In some cases, there are sub-sub folders. Make sure you include that path. Example: AIspace/Adaptation/explanation/*.java
 
 
 ## How to run the code: 
-java -classpath ":./lib/batik/lib/*" AIspace/Adaptation AdaptiveCSP_main_LocationBasedHide_M2_NoOLM_Explain2 
+java -classpath ";./lib/batik/lib/*" AIspace/Adaptation/AdaptiveCSP_main_LocationBasedHide_M2_NoOLM_Explain2
  
 ## Version decription 
 
@@ -101,6 +101,6 @@ java -classpath ":./lib/batik/lib/*" AIspace/Adaptation AdaptiveCSP_main_Locatio
 2. V6: 
 
 
-## Which CSP problem did Samad, LV and Vedant used for their user study?
-All of them used a set of 3 CSP problems: Sample 1, Sample 2 and Sample 3. These CSP problems are not built-in in the ACSP menu, they need to be opened from File>Open with. The problems file are located in the server at CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware/Applet Problems.
+## Which CSP problems did Samad, LV and Vedant use for their user study?
+All of them used a set of 3 CSP problems: Sample 1, Sample 2 and Sample 3. These CSP problems are not built-in in the ACSP menu, they need to be opened from File>Open with. The problem files are located in the server at CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware/Applet Problems.
 
