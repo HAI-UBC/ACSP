@@ -13,15 +13,15 @@ Objective: This document presents:
 
 ## Different versions of the ACSP applet:
 
-| Version | Name              | Features                          | Developer          | Year | Codebase (In CS server /ubc/cs/research/conati/) | Materials|
+| Version | Name              | Features                          | Developer          | Year | Codebase (In CS server) | Materials|
 | ------- | ----------------- | --------------------------------- | ------------------ | ---- | -------- | -------- |
 | v0      | CSP               | Non-adaptive base CSP applet      | Team CISpace       | 1999-2010   | NA | [AISpace Website](http://www.aispace.org/index.shtml)     |
-| v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           | 2016-17     | CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware acsp-control.jar | [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0348694)         |
-| v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 | CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware acsp-expl.jar | [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0389817?o=0)|
-| v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 | CIspaceCSP/Vedant_ConfusionStudy |  [Thesis]()       |
-| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | CIspaceCSP/ACSP_Interface_Vedant_Harshinee/Software |  [Thesis]()        |
-| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | CIspaceCSP/ACSP_Interface_Vedant_Harshinee/Software |    [Thesis]()      |
-| v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 | CIspaceCSP/Max_RP |   [Report]() |
+| v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           | 2016-17     | /ubc/cs/research/conati/CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware acsp-control.jar | [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0348694)         |
+| v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 | /ubc/cs/research/conati/CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware acsp-expl.jar | [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0389817?o=0)|
+| v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 | /ubc/cs/research/conati/CIspaceCSP/Vedant_ConfusionStudy |  [Thesis]()       |
+| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Interface_Vedant_Harshinee/Software |  [Thesis]()        |
+| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Interface_Vedant_Harshinee/Software |    [Thesis]()      |
+| v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 | /ubc/cs/research/conati/CIspaceCSP/Max_RP |   [Report]() |
 
 
 ## Code retrieval story 
@@ -41,6 +41,12 @@ This method will still work (in case required). Sometimes if the "cvs" command d
 We do not use CVS anymore. For accessing codebase of the above listed version, follow their location in the CS server. Find the appropriate folder and edit/run the code as per directions in the following sections. 
 
 The code cannot be uploaded to GitHub because they are too large files to be pushed to GitHub. That is why they are stored in the CS server. 
+
+## Accessing the CS servers 
+
+To access the CS servers and retreive the code, follow guidelines:
+- https://my.cs.ubc.ca/docs/connecting-department-unix-servers
+- Using Xmanager makes it easy: https://my.cs.ubc.ca/docs/free-terminal-emulation-software-xmanager
 
 ## Project folder structure:
 
@@ -83,6 +89,12 @@ Following the above described folder structure, based on your goal, you can make
 1. Changes to hint box/explanation delivery method are done in files in the Adaptation folder. (e.g. v1,v3,v4,v5)
 2. Changes to explanations are done in the explanation sub-folder in the Adaptation folder. (e.g. v6)
 
+
+## Log-ing function
+As you might have noted, when someone runs ACSP and closes it, ACSP creates a log file in the parent folder which includes all the steps they used to solve the problems, the functions they used from the applet, hints received, etc.  
+
+If you add a new function to the applet, make sure you add a feature to log the usage of that function:
+```AIspace.Constraint.Log.writeStamped("Sample Log");```
 
 ## How to compile the code:
 Set Constraint main folder as CWD and run: 
