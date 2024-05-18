@@ -26,7 +26,7 @@ Watch a tutorial on the ACSP software manual and editing ACSP [here](https://you
 | v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Bahel_Sriram/Confusion Study/Constraint |  [Thesis]()       |
 | v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Bahel_Sriram/PXAI Study/Software |  [Thesis]()        |
 | v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Bahel_Sriram/PXAI Study/Software |    [Thesis]()      |
-| v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 | /ubc/cs/research/conati/CIspaceCSP/Max_RP |   [Report]() |
+| v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 | /ubc/cs/research/conati/CIspaceCSP/Max_RP |   [Report](./Max_Gilmour___COGS_402_Written_Report.pdf) |
 
 
 ## Code retrieval story 
