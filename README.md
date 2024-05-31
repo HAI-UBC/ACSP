@@ -23,9 +23,9 @@ Watch a tutorial on the ACSP software manual and editing ACSP [here](https://you
 | v0      | CSP               | Non-adaptive base CSP applet      | Team CISpace       | 1999-2010   | NA | [AISpace Website](http://www.aispace.org/index.shtml)     |
 | v1      | ACSP              | Adaptive CSP applet (with hints)  | Samada K           | 2016-17     | /ubc/cs/research/conati/CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware acsp-control.jar | [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0348694)         |
 | v2      | ACSP_Exp          | ACSP with explanations of hints   | Lea R and Vanessa P| Summer 2019 | /ubc/cs/research/conati/CIspaceCSP/XAI(Lea&Vanessa)/StudySoftware acsp-expl.jar | [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0389817?o=0)|
-| v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Bahel_Sriram/Confusion Study/Constraint |  [Thesis]()       |
-| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Bahel_Sriram/PXAI Study/Software |  [Thesis]()        |
-| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Bahel_Sriram/PXAI Study/Software |    [Thesis]()      |
+| v3      | ACSP_Confusion    | Confusion self-reporting for hints| Vedant B           | Summer 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Bahel_Sriram/Confusion Study/Constraint |  [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0443819?o=0)       |
+| v4      | ACSP_PXAI_Upfront | Explanations delivered upfront    | Vedant B           | Winter 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Bahel_Sriram/PXAI Study/Software |  [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0443819?o=0)        |
+| v5      | ACSP_PXAI_Singular| Hint close button disabled        | Vedant B           | Winter 2023 | /ubc/cs/research/conati/CIspaceCSP/ACSP_Bahel_Sriram/PXAI Study/Software |    [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0443819?o=0)      |
 | v6      | ACSP_RP           | Explanation text reduced          | Max                | Spring 2024 | /ubc/cs/research/conati/CIspaceCSP/Max_RP |   [Report](./Max_Gilmour___COGS_402_Written_Report.pdf) |
 
 
