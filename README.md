@@ -1,9 +1,9 @@
 # ACSP Software Development Manual 
 
 ## Meta 
-Document Version: 0.2
+Document Version: 0.3
 
-Last updated: Spring 2024 by Vedant Bahel and Max G
+Last updated: Winter 2024 by Ivan Orozco Vasquez
 
 
 Objective: This document presents:
